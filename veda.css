@@ -1,0 +1,113 @@
+body {
+    display: flex;
+}
+
+h2 {}
+
+
+
+.abc {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.qwe {
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+
+    width: 15%;
+    margin: 20px;
+    border-radius: 6%;
+}
+
+img:hover {
+    transition: 0.3s;
+    transform: translateX(1em);
+    box-shadow: -87px 13px 37px -7px #ffc085;
+}
+
+h1 {
+    margin-bottom: 5%;
+    padding: 20px;
+    background-color: #ffd9b3;
+
+}
+
+p {
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: cursive;
+    margin: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.row {
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.row img:hover {
+    transition: none;
+    transform: none;
+    align-items: center;
+    box-shadow: 5px 5px 5px 5px black;
+}
+}
+
+@media(max-width:1400px) {
+    .row {
+        flex-direction: column;
+    }
+
+    .col {
+        display: flex;
+        flex: 3;
+
+    }
+
+    .qwe {
+        display: flex;
+        flex: 3;
+    }
+}
+
+.gita img {
+    display: flex;
+    padding: auto;
+    margin: auto;
+    width: 30%;
+    height: 30%;
+}
+
+.gita img:hover {
+    transition: 2s;
+    transform: rotate(720deg);
+    box-shadow: 5px 5px 5px 5px goldenrod;
+}
+
+.puranas img {
+    display: inline;
+    padding: auto;
+    margin: 4%;
+    width: 20%;
+    height: 20%;
+    flex: 3;
+}
+
+.puranas img:hover {
+    transition: 1s;
+    transform: none;
+    height: 30%;
+    width: 30%;
+    box-shadow: 5px 5px 5px 5px red;
+}
+
+.list-group li:hover {
+    transition: 0.2s;
+    background-color: orange;
+}
